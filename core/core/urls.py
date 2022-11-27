@@ -19,5 +19,6 @@ from home.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',home)
+    path('',home),
+    path('student/',generate_student_data)
 ]
